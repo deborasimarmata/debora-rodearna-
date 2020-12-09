@@ -23,7 +23,7 @@ Login with invalid email dan valid password
     Input Text    id=input-password    pwdemo
     Sleep 2s
     Click Element    xpath=//*[@id="content"]/div/div/div/div/div[2]/form/div[3]/button
-    Sleep 5s
+    Sleep 3s
 
 Login with valid email blank password
     Open Browser    ${LoginPage}    ${Browser}
@@ -32,7 +32,7 @@ Login with valid email blank password
     Input Text    id=input-password
     Sleep 2s
     Click Element    xpath=//*[@id="content"]/div/div/div/div/div[2]/form/div[3]/button
-    Sleep 5s
+    Sleep 3s
 
 Login with blank email blank password
     Open Browser    ${LoginPage}    ${Browser}
@@ -41,7 +41,7 @@ Login with blank email blank password
     Input Text    id=input-password
     Sleep 2s
     Click Element    xpath=//*[@id="content"]/div/div/div/div/div[2]/form/div[3]/button
-    Sleep 5s
+    Sleep 3s
 
 Login with valid email valid password
     Open Browser    ${LoginPage}    ${Browser}
@@ -50,4 +50,4 @@ Login with valid email valid password
     Input Text    id=input-password    psdemo
     Sleep 2s
     Click Element    xpath=//*[@id="content"]/div/div/div/div/div[2]/form/div[3]/button
-    Sleep 5s
+    Sleep 3s
